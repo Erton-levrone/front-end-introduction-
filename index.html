@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TurboPlay Arena | Jogos competitivos e recompensas</title>
+    <meta
+      name="description"
+      content="Entre na TurboPlay Arena e jogue títulos competitivos com bônus de boas-vindas, torneios diários e recompensas instantâneas."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container hero-content">
+        <p class="badge">🔥 +8.500 jogadores online agora</p>
+        <h1>Transforme seu tempo livre em vitórias épicas.</h1>
+        <p class="subtitle">
+          Jogue os melhores títulos competitivos, entre em torneios exclusivos e
+          receba <strong>100% de bônus no primeiro depósito</strong> para começar
+          na frente.
+        </p>
+
+        <div class="cta-group">
+          <a href="#form" class="btn btn-primary">Quero meu bônus agora</a>
+          <a href="#beneficios" class="btn btn-secondary">Ver benefícios</a>
+        </div>
+
+        <ul class="trust-points">
+          <li>✔ Saques em até 5 minutos</li>
+          <li>✔ Suporte 24/7 em português</li>
+          <li>✔ Plataforma segura e licenciada</li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section id="beneficios" class="section container">
+        <h2>Por que jogadores escolhem a TurboPlay?</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Bônus de Boas-vindas</h3>
+            <p>
+              Ative seu bônus de até R$500 para jogar mais partidas e aumentar
+              suas chances de vitória.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Torneios Diários</h3>
+            <p>
+              Dispute rankings com premiações reais todos os dias, sem
+              burocracia para participar.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Recompensas Instantâneas</h3>
+            <p>
+              Complete desafios semanais e desbloqueie skins, créditos e bônus
+              exclusivos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section social-proof">
+        <div class="container">
+          <h2>Resultados reais da comunidade</h2>
+          <div class="stats">
+            <div>
+              <strong>+120 mil</strong>
+              <span>jogadores cadastrados</span>
+            </div>
+            <div>
+              <strong>R$ 2,4 mi</strong>
+              <span>pagos em premiações no último mês</span>
+            </div>
+            <div>
+              <strong>4,9/5</strong>
+              <span>avaliação média dos usuários</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="form" class="section container form-section">
+        <div>
+          <h2>Crie sua conta grátis em menos de 1 minuto</h2>
+          <p>
+            Preencha os dados abaixo para liberar seu bônus e receber convite
+            para o próximo torneio VIP.
+          </p>
+        </div>
+
+        <form id="lead-form" class="lead-form" novalidate>
+          <label for="nome">Nome completo</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="voce@email.com" required />
+
+          <label for="telefone">WhatsApp</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="(11) 99999-9999" required />
+
+          <button type="submit" class="btn btn-primary full">Ativar bônus agora</button>
+          <p class="form-note">🔒 Seus dados estão protegidos. Sem spam.</p>
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2026 TurboPlay Arena. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
